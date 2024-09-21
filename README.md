@@ -25,7 +25,7 @@ For strength level `4`, we used Python's `secrets` module to generate cryptograp
 
 ## How to Use the Dataset
 
-1. **Download the Dataset**: You can download the dataset from GitHub.
+1. **Download the Dataset**: You can download the dataset from GitHub or [Hugging Face](https://huggingface.co/datasets/InfinitodeLTD/PWLDS).
 2. **Load the Dataset**: Use Python, R, or any data processing tool to load and analyze the dataset. The file is in CSV format for easy use.
 3. **Data Structure**: Each entry in the dataset includes a password and its associated strength level (0-4), labels for columns are respectively: `Password` and `Strength_Level`.
 
