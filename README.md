@@ -1,6 +1,6 @@
 # PWLDS (Password Weakness and Level Dataset)
 
-PWLDS is a public dataset consisting of over 4 million passwords with varying assigned strength levels. The dataset was designed to help researchers, security professionals, and developers analyze password strength and build more secure systems. The dataset contains 5 classes:
+PWLDS is a public dataset consisting of over 10 million passwords with varying assigned strength levels. The dataset was designed to help researchers, security professionals, and developers analyze password strength and build more secure systems. The dataset contains 5 classes:
 
 - `weak`: Represented by `1` in the dataset
 - `average`: Represented by `2` in the dataset
