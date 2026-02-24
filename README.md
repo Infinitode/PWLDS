@@ -1,13 +1,19 @@
 # PWLDS (Password Weakness and Level Dataset)
 
-PWLDS is a public dataset consisting of over 10 million passwords with varying assigned strength levels. The dataset was designed to help researchers, security professionals, and developers analyze password strength and build more secure systems. The dataset contains 5 classes:
+PWLDS is a public dataset consisting of over 15 million passwords with varying assigned strength levels. The dataset was designed to help researchers, security professionals, and developers analyze password strength and build more secure systems. The dataset contains 5 classes:
 
+- `very_weak`: Represented by `0` in the dataset
 - `weak`: Represented by `1` in the dataset
 - `average`: Represented by `2` in the dataset
 - `strong`: Represented by `3` in the dataset
 - `very_strong`: Represented by `4` in the dataset
 
 For strength level `4`, we used Python's `secrets` module to generate cryptographically secure passwords, ensuring the robustness and security of these passwords.
+
+Changelog:
+- `v1.2`: Added 5 million new passwords.
+- `v1.1`: Doubled to 10 million passwords.
+- `v1.0`: PWLDS first release of 5 million passwords.
 
 > [!NOTE]
 > Due to GitHub's single file size constraints of 100mb, `pwlds_full.csv` was removed in version 1.1. You can still however, download it from Hugging Face Datasets or create it on your own by combining all of the files into one.
